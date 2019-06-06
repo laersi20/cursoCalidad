@@ -1,0 +1,11 @@
+package orange.cucumber;
+ 
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+ 
+@RunWith(TestRunner_GoogleHomepage.class)
+@CucumberOptions(features="resources/features", glue="")
+public class TestRunner_GoogleHomepage {
+ 
+}

@@ -1,0 +1,42 @@
+package orange.calculadora;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class AddTest {
+
+	@Test
+	public void existsAdd() {
+		App.add("");
+	}
+
+	@Test
+	public void sumaVacio() {
+		
+		assertTrue(App.add("") == 0);
+	}
+
+	@Test
+	public void suma1() {
+		
+		assertTrue(App.add("1") == 1);
+	}
+	
+	@Test
+	public void suma2() {
+		
+		assertTrue(App.add("1,2") == 2);
+	}
+	
+	@Test
+	public void suma3() {
+		
+		assertTrue(App.add("1,2,3") == 6);
+	}
+	
+	@Test(expected = NullPointerException.class)
+	public void sumaLetras() {
+		assertTrue(App.add("1,2,A") == 2);
+	}
+}

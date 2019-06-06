@@ -1,0 +1,26 @@
+package orange.calculadora;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class AddTest {
+
+	@Test
+	public void existsAdd() {
+		App.add("");
+	}
+
+	@Test
+	public void sumaVacio() {
+		
+		assertTrue(App.add("") == 0);
+	}
+
+	@Test
+	public void suma1() {
+		
+		assertTrue(App.add("1") == 0);
+	}
+	
+}

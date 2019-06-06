@@ -1,0 +1,19 @@
+package orange.calculadora;
+
+public class App 
+{
+	public static void main(String[] args) {
+
+	}
+
+	public static int add(String sumatorio) {
+		String[] numeros = sumatorio.split(",");
+		int suma = 0;
+		for (String numero : numeros) {
+			suma
+		}
+		
+		return 0;
+	}
+	
+}

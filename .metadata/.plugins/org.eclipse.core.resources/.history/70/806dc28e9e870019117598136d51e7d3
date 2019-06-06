@@ -1,0 +1,16 @@
+package orange.calculadora;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.sun.net.httpserver.Authenticator.Success;
+
+public class TestCase {
+
+	@Test
+	public void test() {
+		assertTrue(true);
+	}
+
+}

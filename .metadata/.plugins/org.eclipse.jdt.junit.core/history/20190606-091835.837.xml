@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner_GoogleHomepage" project="cucumber" tests="2" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="orange.cucumber.TestRunner_GoogleHomepage" incomplete="true">
+    <error>cucumber.runtime.CucumberException: java.lang.NoSuchMethodException: cucumber.runtime.java.JavaBackend.&lt;init&gt;(cucumber.runtime.io.ResourceLoader, io.cucumber.stepexpression.TypeRegistry)&#13;
+	at cucumber.runtime.Reflections.newInstance(Reflections.java:54)&#13;
+	at cucumber.runtime.Reflections.instantiateSubclasses(Reflections.java:36)&#13;
+	at cucumber.runtime.BackendModuleBackendSupplier.loadBackends(BackendModuleBackendSupplier.java:52)&#13;
+	at cucumber.runtime.BackendModuleBackendSupplier.get(BackendModuleBackendSupplier.java:39)&#13;
+	at cucumber.runner.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:42)&#13;
+	at cucumber.runner.ThreadLocalRunnerSupplier.access$000(ThreadLocalRunnerSupplier.java:13)&#13;
+	at cucumber.runner.ThreadLocalRunnerSupplier$1.initialValue(ThreadLocalRunnerSupplier.java:22)&#13;
+	at cucumber.runner.ThreadLocalRunnerSupplier$1.initialValue(ThreadLocalRunnerSupplier.java:19)&#13;
+	at java.lang.ThreadLocal.setInitialValue(Unknown Source)&#13;
+	at java.lang.ThreadLocal.get(Unknown Source)&#13;
+	at cucumber.runner.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:38)&#13;
+	at cucumber.api.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:146)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)&#13;
+Caused by: java.lang.NoSuchMethodException: cucumber.runtime.java.JavaBackend.&lt;init&gt;(cucumber.runtime.io.ResourceLoader, io.cucumber.stepexpression.TypeRegistry)&#13;
+	at java.lang.Class.getConstructor0(Unknown Source)&#13;
+	at java.lang.Class.getConstructor(Unknown Source)&#13;
+	at cucumber.runtime.Reflections.newInstance(Reflections.java:46)&#13;
+	... 18 more&#13;
+&#13;
+</error>
+    <testsuite name="Feature: Info Calorias" incomplete="true">
+      <testcase name="Se muestran datos instantaneos" classname="Info Calorias" incomplete="true"/>
+      <testcase name="Se muestran datos instantaneos a cero" classname="Info Calorias" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>
